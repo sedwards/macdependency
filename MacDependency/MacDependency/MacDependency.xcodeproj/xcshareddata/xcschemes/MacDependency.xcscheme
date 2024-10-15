@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1540"
+   LastUpgradeVersion = "1320"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DC2EF4F0486A6940098B216"
-               BuildableName = "MachO.framework"
-               BlueprintName = "MachO"
-               ReferencedContainer = "container:MachO.xcodeproj">
+               BlueprintIdentifier = "8D15AC270486D014006FF6A4"
+               BuildableName = "MacDependency.app"
+               BlueprintName = "MacDependency"
+               ReferencedContainer = "container:MacDependency.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,6 +27,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8D15AC270486D014006FF6A4"
+            BuildableName = "MacDependency.app"
+            BlueprintName = "MacDependency"
+            ReferencedContainer = "container:MacDependency.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
       </Testables>
    </TestAction>
@@ -40,15 +49,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DC2EF4F0486A6940098B216"
-            BuildableName = "MachO.framework"
-            BlueprintName = "MachO"
-            ReferencedContainer = "container:MachO.xcodeproj">
+            BlueprintIdentifier = "8D15AC270486D014006FF6A4"
+            BuildableName = "MacDependency.app"
+            BlueprintName = "MacDependency"
+            ReferencedContainer = "container:MacDependency.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -56,15 +66,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DC2EF4F0486A6940098B216"
-            BuildableName = "MachO.framework"
-            BlueprintName = "MachO"
-            ReferencedContainer = "container:MachO.xcodeproj">
+            BlueprintIdentifier = "8D15AC270486D014006FF6A4"
+            BuildableName = "MacDependency.app"
+            BlueprintName = "MacDependency"
+            ReferencedContainer = "container:MacDependency.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
